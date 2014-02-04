@@ -52,7 +52,7 @@ var DEFINES = {
   FIREFOX: false,
   MOZCENTRAL: false,
   B2G: false,
-  CHROME: false,
+  CHROME: true,
   SINGLE_FILE: false
 };
 
