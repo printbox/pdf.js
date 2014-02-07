@@ -245,7 +245,7 @@ html[dir='rtl'] #sidebarContent {
 }
 
 #viewerContainer {
-  overflow: auto;
+  overflow: hidden;
   position: absolute;
   top: 32px;
   right: 0;
