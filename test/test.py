@@ -26,7 +26,7 @@ USAGE_EXAMPLE = "%prog"
 # The local web server uses the git repo as the document root.
 DOC_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__),".."))
 
-GIT_CLONE_CHECK = True
+GIT_CLONE_CHECK = False
 DEFAULT_MANIFEST_FILE = 'test_manifest.json'
 EQLOG_FILE = 'eq.log'
 BROWSERLOG_FILE = 'browser.log'
