@@ -10,7 +10,7 @@ module Pdfjs
       send_file File.join('src', params[:splat])
     end
 
-    get '/*' do
+    get '/web/*' do
       send_file File.join('web', params[:splat])
     end
   end
