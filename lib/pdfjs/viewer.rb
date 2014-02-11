@@ -11,6 +11,9 @@ module Pdfjs
     end
 
     get '/web/*' do
+      headers 'Access-Control-Allow-Origin' => '*',
+        'Access-Control-Request-Method' => '*',
+        'X-Frame-Options' => 'allow-from localhost'
       send_file File.join('web', params[:splat])
     end
   end
